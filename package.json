@@ -1,0 +1,26 @@
+{
+  "name": "practice-mern-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd Backend && npm run dev\" \"cd Frontend && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kchetannarayan/practice-mern-web-app.git"
+  },
+  "keywords": [],
+  "author": "Chetan Patil Korde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kchetannarayan/practice-mern-web-app/issues"
+  },
+  "homepage": "https://github.com/kchetannarayan/practice-mern-web-app#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  },
+  "type":"module"
+}

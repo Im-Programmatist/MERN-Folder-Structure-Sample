@@ -1,0 +1,15 @@
+{{#if flashMessage.isFlash}}
+<div id="flash_div" class="alert flash">
+    <button id="closeFlash" type="button" class="close">×</button>
+    <i style="color:black;" class="fa sign"></i><strong>{{flashMessage.message}}</strong> 
+    {{!-- <span>{{message}}</span> --}}
+</div>
+{{/if}}
+
+<script>
+    document.getElementById('closeFlash').onclick = function(){
+       console.log("click event trigger"); 
+       //document.querySelector('#closeFlash').innerHTML="";
+       document.querySelector('#flash_div').style.display = 'none'; 
+    }
+</script>
